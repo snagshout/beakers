@@ -62,4 +62,27 @@ interface QueryBuilderInterface
      * @param Builder $query
      */
     public function setQuery(Builder $query);
+
+    /**
+     * Get the results from the query that has been built and reset it.
+     *
+     * @return \Illuminate\Database\Eloquent\Collection
+     */
+    public function get();
+
+    /**
+     * Return the number of results.
+     *
+     * @return integer
+     */
+    public function count();
+
+    /**
+     * Paginate a result set and reset the query.
+     *
+     * @param {int} $limit
+     *
+     * @return \Illuminate\Pagination\Paginator|\Illuminate\Pagination\LengthAwarePaginator
+     */
+    public function paginate($limit);
 }

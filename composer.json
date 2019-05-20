@@ -9,7 +9,7 @@
     "php-ds/php-ds": "^1.1"
   },
   "require-dev": {
-    "phpunit/phpunit": "*"
+    "phpunit/phpunit": "5.*"
   },
   "license": "MIT",
   "authors": [

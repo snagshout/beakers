@@ -102,7 +102,7 @@ abstract class QueryBuilder implements QueryBuilderInterface
     /**
      * Get the results from the query that has been built and reset it.
      *
-     * @return \Illuminate\Database\Eloquent\Collection|static[]
+     * @return \Illuminate\Database\Eloquent\Collection
      */
     public function get()
     {
@@ -135,7 +135,7 @@ abstract class QueryBuilder implements QueryBuilderInterface
      *
      * @param {int} $limit
      *
-     * @return \Illuminate\Pagination\Paginator
+     * @return \Illuminate\Pagination\Paginator|\Illuminate\Pagination\LengthAwarePaginator
      */
     public function paginate($limit)
     {
