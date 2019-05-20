@@ -1,6 +1,7 @@
 {
   "name": "sellerlabs/beakers",
   "description": "Interfaces and abstracts to share amongst Seller Labs products",
+  "type": "library",
   "require": {
     "php": ">=7.0.0",
     "sellerlabs/quip": "^0.1.3",
