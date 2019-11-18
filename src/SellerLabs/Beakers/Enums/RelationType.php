@@ -26,4 +26,5 @@ class RelationType extends Enum
     const HAS_MANY_THROUGH = 'hasManyThrough';
     const BELONGS_TO = 'belongsTo';
     const BELONGS_TO_MANY = 'belongsToMany';
+    const BELONGS_TO_THROUGH = 'belongsToThrough';
 }
